@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.DS_Store
+Thumbs.db
+.qa_*
+data/geo/_*_input.geojson
+data/geo/ne_10m_admin_1_states_provinces.geojson
+data/geo/ne_50m_admin_0_countries.geojson
+data/raw/*.csv
+data/processed/*.csv
+dashboard.html
